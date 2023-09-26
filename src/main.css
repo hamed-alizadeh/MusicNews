@@ -1,0 +1,250 @@
+  body {
+    background-color: #dce9e5;
+  }
+  /* Style the photessliders */
+
+  .photo-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+    border: 0.5px solid #ac9090;
+    border-radius: 5%;
+    margin-bottom: 30px;
+  }
+  
+  .photo {
+    display: none;
+    height: 50vh;
+  }
+  
+  .photo.active {
+    display: block;
+  }
+  
+  .photo img {
+    max-width: 200%;
+    height: auto;
+    transition: opacity 0.5s;
+  }
+  
+  /* Optional: Add transition effect between photos */
+  .photo-slider:hover .photo img {
+    opacity: 0.7;
+  }
+  
+  .photo-slider:hover .photo.active img {
+    opacity: 1;
+  }
+  
+/* breakingNews */
+
+.breaking-news {
+  display: flex;
+  border: 5px solid #bba0a0;
+  border-radius: 2%;
+  height: 60vh;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.breaking-news__video {
+  flex: 1;
+}
+
+.breaking-news__video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.breaking-news__content {
+  flex: 1;
+  padding: 20px;
+}
+
+.breaking-news__title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.breaking-news__description {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.breaking-news__link {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.breaking-news__link:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+  /* newscards */
+  
+  .news-card {
+    display: inline-block;
+    width: 25%; /* Adjust as needed to leave a small space between cards */
+    margin: 5% 4%; /* Adjust as needed to leave a small space between cards */
+    box-sizing: border-box;
+    border: 0.5px solid #d3bcbc;
+  border-radius: 2%;
+  }
+  
+  .news-card__image img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto 5%;
+  }
+  
+  .news-card__content {
+    margin: auto 5%;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8; /* Example background color, customize as needed */
+    border: 1px solid #ddd; /* Example border, customize as needed */
+  }
+  
+  .news-card__title {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .news-card__description {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .news-card__button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Example button color, customize as needed */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .news-card__button:hover {
+    background-color: #0056b3; /* Example hover color, customize as needed */
+  }
+
+  .upcoming-events {
+    text-align: center;
+  }
+  
+  .event-container {
+    display: flex;
+    justify-content: center;
+    border: 5px solid rgb(32, 32, 32);
+    height: 90vh;
+  }
+  
+  .event {
+    width: 60vh;
+    height: 85vh;
+    margin: 10px;
+    border: 1px solid #c9a3a3;
+  }
+  .events-wrapper {
+    display: flex;
+    max-width: 100%;
+    transition: transform 1s ease;
+    margin: auto; /* Center the wrapper within the container */
+  }
+  
+  
+  .event-image img {
+    width: 100%;
+  }
+  
+  .event-description {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navigation-buttons {
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .navigation-buttons button {
+    background-color: #5d7c5e; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    margin: 0 10px; /* Add margin for spacing between buttons */
+  }
+  
+  .navigation-buttons button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  
+/* Footer*/
+  .footer {
+    background-color: #616060;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer__links a {
+    color: #ffe7e7;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .footer__sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer__section {
+    flex: 1;
+  }
+  
+  .footer__section h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer__section a {
+    display: block;
+    color: #ccc;
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+  
+  .footer__section a:hover {
+    color: #fff;
+  }
+  
+  .footer__copyright {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  
+  
+
+
+  
+  
+  
+  

@@ -1,0 +1,56 @@
+/* Navbar Styling */
+
+.navbar {
+  margin: 0px;
+  background-color: #e2dcdc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  color: #070707; /* Changed the color for better contrast */
+  font-size: 1.1rem;
+  justify-content: space-around;
+  border-bottom: 2px solid #cac8c8; /* Added a border for separation */
+  border: 1px solid rgb(151, 127, 127);
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 10px; /* Adjusted margin for spacing */
+  padding: 5px 10px; /* Adjusted padding for spacing */
+  border-radius: 4px;
+  background-color: #ece8e8;
+  color: #070707;
+}
+
+.navbar a:hover {
+  background-color: #b7b5b5; /* Darker background on hover */
+}
+
+/* Top Head and Images Styling */
+.top-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  background-color: rgb(236, 226, 228);
+  
+  
+}
+
+.top-img-left {
+  grid-column: 1; 
+ 
+}
+
+.top-img-middle {
+  grid-column: 3; 
+}
+
+.top-img-right {
+  grid-column: 5; 
+}
+
+
+
+
+  
+  
