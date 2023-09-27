@@ -2,11 +2,11 @@
 
 .navbar {
   margin: 0px;
-  background-color: #e2dcdc;
+  background-color: #ecf1f1;
   padding: 10px;
   display: flex;
   align-items: center;
-  color: #070707; /* Changed the color for better contrast */
+  color: #141313; /* Changed the color for better contrast */
   font-size: 1.1rem;
   justify-content: space-around;
   border-bottom: 2px solid #cac8c8; /* Added a border for separation */
